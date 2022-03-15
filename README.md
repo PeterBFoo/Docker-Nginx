@@ -56,6 +56,9 @@ Una vez creado el contenedor, al estar en modo "detached" estará activo hasta q
 
 <img width="1064" alt="Captura de pantalla 2022-03-15 a las 14 51 21" src="https://user-images.githubusercontent.com/91556382/158400071-0221919f-60a6-42ca-92c5-e21648894e6a.png">
 
+---
 
+### Usar la imágen creada en una VM de Microsoft Azure
 
+Es posible subir la imágen recién creada a Docker Hub para después ser consumida por la VM de Microsoft Azure, simplemente se tendrá que instalar Docker en esa máquina para que pueda descargar la imágen y crear un contenedor sobre ella.
 

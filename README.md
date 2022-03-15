@@ -46,6 +46,10 @@ docker build -t webserver .
 
 Ahora que la imágen ha sido creada, resta crear el contenedor a partir de ella:
 
+```bash
+docker run --rm -d -p 8080:80 --name web webserver
+```
+
 <img width="597" alt="Captura de pantalla 2022-03-15 a las 15 03 25" src="https://user-images.githubusercontent.com/91556382/158399693-799ff770-0290-479a-a2c1-239b4ae01d09.png">
 
 Una vez creado el contenedor, al estar en modo "detached" estará activo hasta que se decida detenerlo. Por lo tanto, hay que volver a navegar a http://localhost:8080 para comprobar si está funcionando el cambio que hemos realizado.
